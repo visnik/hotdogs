@@ -1,0 +1,12 @@
+body {
+  background-color: saddlebrown;
+}
+
+.thing {
+  height: 133px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  border: 3px solid black;
+  border-radius: 5px;
+}
