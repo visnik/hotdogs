@@ -1,0 +1,14 @@
+{
+  "name": "foop",
+  "version": "0.0.0",
+  "main": "foop.js",
+  "author": "kwc",
+  "scripts": {
+    "start": "node hotdogs.js"
+  },
+  "dependencies": {
+    "express": "^4.7.2",
+    "socket.io": "^1.0.6",
+    "underscore": "^1.6.0"
+  }
+}

@@ -354,6 +354,12 @@ var tempestCardList = ["http://mtgimage.com/set/tmp/abandon%20hope.jpg",
     "http://mtgimage.com/set/tmp/wood%20sage.jpg",
     "http://mtgimage.com/set/tmp/worthy%20cause.jpg"];
 
+var socket = io.connect('http://localhost');
+
+socket.on('broadcast', function (message) {
+  console.log(message);
+});
+
 function hotdogs () {
   cardContextMenu = document.getElementById("card-context-menu");
   bindEventByValue("mouseup", "button", 0, logMouseCoordinate);
